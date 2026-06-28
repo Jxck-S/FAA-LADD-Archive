@@ -1,8 +1,7 @@
 # FAA-LADD-Archive
 
 A historical archive of the FAA **LADD** (Limiting Aircraft Data Displayed)
-filter files that drive [laddlist.com](https://laddlist.com), maintained
-automatically by [`ladd-updater`](https://github.com/Jxck-S/ladd-updater).
+filter files that drive [laddlist.com](https://laddlist.com).
 
 ## Layout (git-native)
 
@@ -27,6 +26,4 @@ git log --since=2025-01-01 industry_filter.txt
 
 The repo originally stored one snapshot per `YYYY/Month/DD/` folder. It was
 migrated to this git-native layout by a one-time script that replayed each
-historical snapshot as a dated commit. Coverage currently runs through
-**2025-05-13** (matching the database); later weeks are backfilled as
-`ladd-updater` processes the email backlog.
+historical snapshot as a dated commit.
